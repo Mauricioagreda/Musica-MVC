@@ -1,0 +1,51 @@
+﻿@model List<Musica_MVC.Models.Album>;
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2">
+        <h2>Lista Albumes</h2>
+        <a class="btn btn-success mb-3" asp-controller="Album" asp-action="Nuevo">Nuevo</a>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Artista</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdAlbum</td>
+                        <td>@item.Nombre</td>
+                        <td>
+                            <a
+                                asp-controller="Artista"
+                                asp-action="ListaAlbumes"
+                                asp-route-id="@item.IdArtista"
+                                class="btn btn-light">
+                                @item.Artista.Nombre
+                            </a>
+                        </td>
+                        <td>
+                            <a
+                                asp-controller="Album"
+                                asp-action="Editar"
+                                asp-route-id="@item.IdAlbum"
+                                class="btn btn-primary">
+                                Editar
+                            </a>
+                            <a
+                                asp-controller="Album"
+                                asp-action="Eliminar"
+                                asp-route-id="@item.IdAlbum"
+                                class="btn btn-warning">
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

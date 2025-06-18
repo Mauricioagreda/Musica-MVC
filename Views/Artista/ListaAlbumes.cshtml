@@ -1,0 +1,29 @@
+﻿@model List<Musica_MVC.Models.Album>
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2">
+        <h2 class="text-center">Lista Albumes de 
+            <span class="uwu">@Model.FirstOrDefault()?.Artista.Nombre</span>
+        </h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdAlbum</td>
+                        <td>@item.Nombre</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

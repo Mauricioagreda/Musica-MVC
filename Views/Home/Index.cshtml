@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Musica-MVC";
+}
+
+<div class="text-center">
+    <h1 class="display-4 uwu"">Musica MVC</h1>
+    <p></p>
+    <p>Elije la Lista que quieras ver</p>
+    <p></p>
+    <div class="d-flex justify-content-center gap-3 my-4">
+        <a class="btn btn-primary btn-lg" asp-controller="Artista" asp-action="Lista">Artistas</a>
+        <a class="btn btn-success btn-lg" asp-controller="Album" asp-action="Lista">Albumes</a>
+        <a class="btn btn-warning btn-lg" asp-controller="Cancion" asp-action="Lista">Canciones</a>
+    </div>
+</div>

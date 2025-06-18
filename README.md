@@ -40,8 +40,6 @@ https://github.com/Mauricioagreda/Musica-MVC
 
 ## Construido con 🛠️
 
-_Menciona las herramientas y versiones que utilizaste para crear tu proyecto_
-
 * [Visual Studio Code](https://code.visualstudio.com/#alt-downloads) - Editor de código.
 
 ## Versionado 📌

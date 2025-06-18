@@ -33,10 +33,10 @@ https://github.com/Mauricioagreda/Musica-MVC
 
 ## Despliegue 📦
 
-*Clonar el repositorio.
-*Abrir la carpeta "Musica-MVC".
-*Correr el proyecto solucion "Musica-MVC.sln".
-*Ejecutar el proyecto dando click en el boton "https" o apretando "Ctrl" + "F5".
+- .Clonar el repositorio.
+- .Abrir la carpeta "Musica-MVC".
+- .Correr el proyecto solucion "Musica-MVC.sln".
+- .Ejecutar el proyecto dando click en el boton "https" o apretando "Ctrl" + "F5".
 
 ## Construido con 🛠️
 

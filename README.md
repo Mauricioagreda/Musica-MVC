@@ -33,8 +33,6 @@ https://github.com/Mauricioagreda/Musica-MVC
 
 ## Despliegue 📦
 
-* Agregar Paquetes NuGet:
-  
 *Clonar el repositorio
 *Abrir la carpeta "Musica-MVC"
 *Correr el proyecto solucion "Musica-MVC.sln"

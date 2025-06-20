@@ -28,3 +28,4 @@ D:\GitHub\Musica-MVC\Musica-MVC\obj\Debug\net8.0\refint\Musica-MVC.dll
 D:\GitHub\Musica-MVC\Musica-MVC\obj\Debug\net8.0\Musica-MVC.pdb
 D:\GitHub\Musica-MVC\Musica-MVC\obj\Debug\net8.0\Musica-MVC.genruntimeconfig.cache
 D:\GitHub\Musica-MVC\Musica-MVC\obj\Debug\net8.0\ref\Musica-MVC.dll
+D:\GitHub\Musica-MVC\Musica-MVC\obj\Debug\net8.0\Musica-MVC.sourcelink.json
